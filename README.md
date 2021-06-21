@@ -12,26 +12,25 @@ We explored the principles and made comparisons to identify that 1D CNN outperfo
 
 > 1D CNN design implemented:
 
--> Two convolution layers with filters 16 and 32 respectively.
--> Also kernel sizes of 16, 8 respectively.
--> Same padding is used.
--> ReLU activation function is used in all the convolution layers.
--> Max pooling layers are implemented one each after the convolution layer.
--> Flattening is implemented for the last max pooling layer.
--> A dense layer of 513 units with a ReLU activation.
--> Adam optimizer, mean squared error loss function are used.
--> 1000 epochs are used for training.
+- Two convolution layers with filters 16 and 32 respectively.
+- Also kernel sizes of 16, 8 respectively.
+- Same padding is used.
+- ReLU activation function is used in all the convolution layers.
+- Max pooling layers are implemented one each after the convolution layer.
+- Flattening is implemented for the last max pooling layer.
+- A dense layer of 513 units with a ReLU activation.
+- Adam optimizer, mean squared error loss function are used.
+- 1000 epochs are used for training.
 
 
 > 2D CNN design implemented:
 
--> Input layer with TensorShape as (-1,20,513,1).
--> Two convolution layers used with filters of 16,32 are used respectively.
--> Also kernel size of (4,4) for all of the above layers.
--> ReLU activation is used in all the convolution layers.
--> Max pooling layers are used after each convolution layer, with pool_size of (2,2).
--> Final max pooling layer is flattened.
--> A dense layer is used with 513 hidden units with ReLU activation function.
--> Adam optimizer (0.0002 learning rate) and Mean squared error Loss function are used.
--> Batch size of 64 and 500 epochs for training.    
-
+- Input layer with TensorShape as (-1,20,513,1).
+- Two convolution layers used with filters of 16,32 are used respectively.
+- Also kernel size of (4,4) for all of the above layers.
+- ReLU activation is used in all the convolution layers.
+- Max pooling layers are used after each convolution layer, with pool_size of (2,2).
+- Final max pooling layer is flattened.
+- A dense layer is used with 513 hidden units with ReLU activation function.
+- Adam optimizer (0.0002 learning rate) and Mean squared error Loss function are used.
+- Batch size of 64 and 500 epochs for training.    
