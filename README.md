@@ -10,6 +10,7 @@ In this project, we worked using principles of Digital Signal Processing, namely
 
 We explored the principles and made comparisons to identify that 1D CNN outperforms 2D CNN.
 
+
 > 1D CNN design implemented:
 
 - Two convolution layers with filters 16 and 32 respectively.
