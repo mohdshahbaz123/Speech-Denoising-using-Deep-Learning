@@ -11,6 +11,7 @@ In this project, we worked using principles of Digital Signal Processing, namely
 We explored the principles and made comparisons to identify that 1D CNN outperforms 2D CNN.
 
 > 1D CNN design implemented:
+
 -> Two convolution layers with filters 16 and 32 respectively.
 -> Also kernel sizes of 16, 8 respectively.
 -> Same padding is used.
@@ -23,6 +24,7 @@ We explored the principles and made comparisons to identify that 1D CNN outperfo
 
 
 > 2D CNN design implemented:
+
 -> Input layer with TensorShape as (-1,20,513,1).
 -> Two convolution layers used with filters of 16,32 are used respectively.
 -> Also kernel size of (4,4) for all of the above layers.
